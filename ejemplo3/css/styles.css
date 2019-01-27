@@ -76,6 +76,7 @@ h1 {
    
 
  .cara-6 {
+ display: flex;
     justify-content: space-between; 
 }
  .cara-6 .columna {

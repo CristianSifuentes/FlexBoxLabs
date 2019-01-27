@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: black;
+}
+
+h1 {
+    text-align: center;
+    color: steelblue;
+}
+
+[class^="cara-"]{
+    background: white;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    margin: 1em;
+}
+
+.dado {
+    display: flex;
+    flex-wrap: wrap; /*Salta a la siguiente linea cuando no hay espacio*/
+    justify-content: center;
+}
+.cara-1{
+  justify-content: center;
+  align-items: center;
+}
+
+.cara-2{
+    justify-content: space-between;
+}
+
+.cara-2 .punto:nth-child(2){
+   align-self: flex-end;
+}
+
+.cara-3{
+    justify-content: space-between;
+}
+
+.cara-3 .punto:nth-child(2){
+    align-self: center;
+ }
+ 
+.cara-3 .punto:nth-child(3){
+    align-self: flex-end;
+ }
+ 
+
+ .cara-4 {
+     justify-content: space-between; 
+ }
+ .cara-4 .columna {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+  
+  .cara-5 {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .cara-5 .columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cara-5 .punto:nth-child(2){
+    align-self: center;
+ }
+   
+
+ .cara-6 {
+    justify-content: space-between; 
+}
+ .cara-6 .columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.punto {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: black;
+}
+
+
+
+footer {
+    padding-top: 3rem;
+    text-align: center;
+}

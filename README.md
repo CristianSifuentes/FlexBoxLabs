@@ -1,2 +1,4 @@
-# FlexBoxLabs
-Este es un repositorio donde se almacenan los ejemplos y analisis de flexbox
+# BlogViajes
+BlogViajes(Flexbox)
+
+#Notas siempre necesito 1 contenedor principal en flexbox

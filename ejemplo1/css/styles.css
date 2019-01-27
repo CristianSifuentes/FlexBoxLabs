@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    color: steelblue;
+}
+
+.flex-conteiner {
+    width: 500px;
+    height: 300px;
+    background-color: lightblue;
+    margin: auto;
+    display: flex; 
+    /*Creado un contexto para flexbox, los hijos del elemento se converten en flexibles y   */
+    /*automaticamente aparecen 2 ejes (main axis horizontal y cross axis - vertical)*/
+    /*flex-direction: column;*/ /*mi eje principal se cambia a vertical, por defecto es row*/
+    /* flex-direction: row; */
+    justify-content: space-around;/*alinea elementos en el eje principal*/
+    align-items:  center; /*Alinea los elementos del eje secundario*/
+
+}
+
+/*
+justify-content: 
+flex-start (default)
+flex-end -> final del eje
+space-berween | space-around (espacio uniforme) | center (centrado)
+*/
+
+/*
+align-items: 
+stretch (defecto) /*reyena todo el espacio en el espacio
+flex-start (default)
+flex-end -> final del eje
+baseline  alinea con respecot a la linea base del centro| center (centrado)
+*/
+
+/*Align-seft
+sobre escribe para 1 unico elemento su align-items
+
+*/
+
+
+.flex-item {
+    background: tomato;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;/*Puedo a un elemento que esta dentro de un contenedor también colocar la propiedad de flex*/
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item:nth-child(odd){
+    background: teal;
+    color: white;
+}
+
+footer {
+    padding-top: 3rem;
+    text-align: center;
+}

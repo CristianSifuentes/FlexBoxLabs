@@ -82,3 +82,25 @@ flex -> Es propiedas abreviada (flex-grow, flex-shrink, flex-basis)
       /*
         flex: 1 1 100px;
       */
+
+      el valor predeterminado es : flex 0 1 auto: por defecto no crecen, por defecto se comprimen y su tamañano es en relación a su contenido
+
+       flex: none = flex: 0 0 auto (no crezcas no te reducas)
+       flex: auto = flex: 1 1 auto (puedes crecer puedes reducir y tamaño en base al contenido)
+       flex: n = flex: n 0 0 ()
+
+CONCEPTO: flex-lines
+PROPIEDAD: flex-wrap
+SHORTHAND: flex-flow
+PROPIEDAD: align-content
+PROPIEDAD: order
+
+flex-lines
+   single-line
+   multi-lines
+
+align-items (cuando es multiline no funciona)
+align-content
+
+order: todos los elementos tienen order 0
+   

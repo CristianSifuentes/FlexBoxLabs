@@ -22,9 +22,9 @@ h1 {
 
 .item {
     background: teal;
-    flex-basis: 25%; 
+    /* flex-basis: 25%; 
     flex-shrink: 1;
-    margin:10px;
+    margin:10px; */
     /* margin: 10px; */
     /* flex-grow: 1; */
     display: flex;
@@ -38,11 +38,27 @@ h1 {
 .item:nth-child(1){
     /*flex-basis: 200px;
     flex-grow: 0;*/ /*Nunca va a crecer*/
+    flex: 25;
 }
 .item:nth-child(2){
     /* flex-grow: 2; */
     /* flex-grow: 1;  */
     /* flex-shrink: 2; */
+    flex: 20;
+
+}
+.item:nth-child(3){
+    /* flex-grow: 2; */
+    /* flex-grow: 1;  */
+    /* flex-shrink: 2; */
+    flex: 45;
+
+}
+.item:nth-child(4){
+    /* flex-grow: 2; */
+    /* flex-grow: 1;  */
+    /* flex-shrink: 2; */
+    flex: 10;
 
 }
 

@@ -1,110 +1,34 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .menu-container {
-    color: #fff;
-    background-color: #5995DA;  /* Blue */
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;    /* Add this */
-
-
-  }
-  
-  .menu {
-    border: 1px solid #fff;
-    width: 900px;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .header-container {
-    color: #5995DA;
-    background-color: #D6E9FE;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .header {
-    width: 900px;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  /* Add this */
-
-  }
-
-  .social,
-.logo,
-.subscribe {
-    border: 1px solid #5995DA;
-    
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
-
-
-.photo-grid-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .photo-grid {
-    width: 900px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;  /* Update this */
-    align-items: center;
-
-  }
-  
-  .photo-grid-item {
-    border: 1px solid #fff;
-    width: 300px;
-    height: 300px;
-  }
-
-  .first-item {
-    order: 1;
-  }
-  
-  .last-item {
-    order: -1;
-  }
-
-
-  .social,
-.subscribe {
-  align-self: flex-end;
-  margin-bottom: 20px;
-}
-
-
-.footer {
+.container {
   display: flex;
+   flex-wrap: wrap;
+  /*flex-direction: row-reverse; */
   justify-content: space-between;
+  width: 95%;
+  height: 500px;
+  background: pink;
+  align-content: center;
 }
 
-.footer-item {
-  border: 1px solid #fff;
-  background-color: #D6E9FE;
-  height: 200px;
-  flex: 1;
+.item {
+  flex: 0 1 23%;
+  margin-bottom: 2%;
+  /* width: 20%; */
+   height: 100px; 
+  background: #eee;
+  /* margin: 10px; */
+  text-align: center;
+  line-height: 100px;
 }
 
-.footer-three {
-  flex: 2;
+.item-5 {
+  order: -1;
 }
 
-.footer-one,
-.footer-three {
-  background-color: #5995DA;
-  flex: initial;
-  width: 300px;
-}
-
-.signup {
-  margin-left: auto;
+.item:nth-child(even){
+  background: lightblue;
 }

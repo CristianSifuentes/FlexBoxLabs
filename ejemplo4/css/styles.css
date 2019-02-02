@@ -16,12 +16,15 @@ h1 {
     background: lightblue;
     margin: auto;
     display: flex;
+/* flex-wrap: wrap; */
     /* flex-direction: column; */
 }
 
 .item {
     background: teal;
-    /* flex-basis: 100px; */
+    flex-basis: 25%; 
+    flex-shrink: 1;
+    margin:10px;
     /* margin: 10px; */
     /* flex-grow: 1; */
     display: flex;
@@ -33,12 +36,14 @@ h1 {
     background: steelblue;
 }
 .item:nth-child(1){
-    flex-basis: 200px;
-    flex-grow: 0; /*Nunca va a crecer*/
+    /*flex-basis: 200px;
+    flex-grow: 0;*/ /*Nunca va a crecer*/
 }
 .item:nth-child(2){
     /* flex-grow: 2; */
-    flex-grow: 1; 
+    /* flex-grow: 1;  */
+    /* flex-shrink: 2; */
+
 }
 
 footer {

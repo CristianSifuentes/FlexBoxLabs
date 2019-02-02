@@ -60,4 +60,25 @@ flex-grow -> Como va a creecer un elemento con respecto a el flex-basis
 
       flex-grow: 0 Nunca va a creecer
 
-flex-shrink -> 
+flex-shrink -> Lo opuesto a flex-grow (encogerse), cuando un espacio disponible es negativo, por defecto todos los items en flexbox tienen la propiedad flex-shrink: 1 (para evitar desbordamientos)
+
+
+       flex-shrink: 1; Es el factor de crecimiento
+
+      /*
+           Espacio disponible = 500px -800px = -300px
+           suma de flex-shrink = 5:
+           unit shrink: -300px/5 = -60px
+
+
+      */
+
+flex -> Es propiedas abreviada (flex-grow, flex-shrink, flex-basis)
+
+       flex-grow: 1;
+       flex-shrink: 1; 
+       flex-basis: 100px;
+
+      /*
+        flex: 1 1 100px;
+      */

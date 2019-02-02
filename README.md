@@ -45,6 +45,19 @@ Cross Size => Cross Axis (por default es el hight)
 
 ¿Propiedades?
 
-flex-basis -> es el valor predeterminado y es relativo al eje principal
-flex-grow
-flex-shrink
+flex-basis -> es el valor predeterminado (auto) y es relativo al eje principal 
+flex-grow -> Como va a creecer un elemento con respecto a el flex-basis
+       
+       flex-grow: 1; Es el factor de crecimiento
+
+      /*
+           Espacio disponible = 100px
+           suma de flex-grow = 4:
+           unit grow: 100px/5 = 25px
+
+
+      */
+
+      flex-grow: 0 Nunca va a creecer
+
+flex-shrink -> 

@@ -11,19 +11,19 @@ h1 {
 }
 
 .container {
-    width: 500px;
+    width: 90%;
     height: 500px;
     background: lightblue;
     margin: auto;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .item {
     background: teal;
-    flex-basis: 100px;
-    width: 50px; 
-    margin: 10px;
+    /* flex-basis: 100px; */
+    /* margin: 10px; */
+    /* flex-grow: 1; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +31,14 @@ h1 {
 }
 .item:nth-child(even) {
     background: steelblue;
+}
+.item:nth-child(1){
+    flex-basis: 200px;
+    flex-grow: 0; /*Nunca va a crecer*/
+}
+.item:nth-child(2){
+    /* flex-grow: 2; */
+    flex-grow: 1; 
 }
 
 footer {

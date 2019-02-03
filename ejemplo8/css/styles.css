@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display:flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: #f0f0f0;
+}
+main {
+  padding: 2em;
+  overflow-y: scroll;
+}
+h1 {
+  color: steelblue;
+}
+p {
+  font-size: 1.3em;
+}
+footer {
+  align-self: flex-end;
+  background: black;
+  color: wheat;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+}
+

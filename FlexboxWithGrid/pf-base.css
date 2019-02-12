@@ -12,6 +12,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-family: sans-serif;
+    padding: 0;
+    margin: 0;
 }
 a {
     color: inherit;
@@ -24,5 +26,6 @@ a {
 }
 .pf-grid-item {
     background-color: gray;
+    padding: 3vw;
 
 }
